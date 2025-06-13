@@ -2,8 +2,8 @@ name: OnePlus_PadPro_Kernel_Compilation
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 16 * * *'
+  # schedule:
+    # - cron: '0 16 * * *'
 
 env:
   RETENTION_COUNT: 3
